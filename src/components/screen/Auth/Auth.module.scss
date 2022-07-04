@@ -1,0 +1,16 @@
+$primary-color: #505494;
+
+.container {
+  background-color: #f3f9fa;
+  background: url("https://static-01.vndirect.com.vn/id/1.0.0/resources/images/login/login-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .bgright {
+    background-color: #39b398;
+  }
+}

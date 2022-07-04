@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  width: 100%;
+  padding-left: 0px;
+  background-color: #e0ebe8;
+}
+
+.main {
+  transition: 0.3s;
+}
+
+.footer {
+  transition: 0.3s;
+}

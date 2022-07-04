@@ -1,0 +1,16 @@
+.container {
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+}
+.menuBar {
+  transition: 0.3s;
+}
+
+.action {
+  transition: 0.3s;
+}
+
+.itemContent {
+  transition: 0.3s;
+}

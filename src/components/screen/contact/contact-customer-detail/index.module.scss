@@ -1,0 +1,18 @@
+.container {
+  @apply flex w-[100%];
+  .boxItemLeft {
+    @apply w-[40%] bg-[#fff] mr-4 p-4 rounded-md h-fit;
+    .boxItem {
+      @apply grid grid-cols-2 items-center border-b border-[#d9d8d8] py-2;
+      .itemColLeft {
+        @apply text-sm font-semibold text-[#5f5e5e];
+      }
+      .itemColRight {
+        @apply text-sm  text-[#5f5e5e] w-full;
+      }
+    }
+  }
+  .boxItemRight {
+    @apply w-[60%] bg-[#fff] p-4 rounded-md h-fit;
+  }
+}
